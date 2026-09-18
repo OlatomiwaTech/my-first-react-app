@@ -12,9 +12,13 @@ body {
 }
 .get-started {
   color: black;
-  background-color: rgb(225, 183, 128);
+  background-color: rgb(213, 193, 166);
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.3ms ease-in all;
+}
+.get-started:hover{
+  background: rgb(172, 135, 87);
 }
