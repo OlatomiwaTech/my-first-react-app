@@ -3,5 +3,6 @@ body {
 }
 .card {
     background-color: lightgray;
-    
+    width: 30px;
+    height: 25px;
 }
