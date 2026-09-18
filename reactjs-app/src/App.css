@@ -12,5 +12,9 @@ body {
 }
 .get-started {
   color: black;
-  
+  background-color: rgb(225, 183, 128);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
