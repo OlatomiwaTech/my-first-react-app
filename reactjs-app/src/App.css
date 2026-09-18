@@ -30,4 +30,5 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3ms ease-in all;
+  margin-left: 20px;
 }
