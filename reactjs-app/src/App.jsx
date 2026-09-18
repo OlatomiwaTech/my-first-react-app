@@ -4,7 +4,9 @@ import "./App.css";
 
 function App() {
   const [hasLiked, setHasLiked] = useState(false);
-
+  useEffect(effect: () => {
+    console.log('you liked the workspace')
+  })
   return (
     <div className="card">
       <h2>Premium Workspace</h2>
