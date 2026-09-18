@@ -1,12 +1,13 @@
 
 import './App.css'
 
+
 function App() {
 return (
-  <div class='card'>
-    <h2>Functional Statement</h2>
-    <Card title="Card Title" description="This is a description of the card." />
-  </div>
+ <div class='card'>
+  <h2>Premium Workspace</h2>
+
+ </div>
 )
 }
 export default App
