@@ -22,3 +22,12 @@ body {
 .get-started:hover{
   background: rgb(172, 135, 87);
 }
+.like-btn {
+   color: black;
+  background-color: rgb(213, 193, 166);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3ms ease-in all;
+}
