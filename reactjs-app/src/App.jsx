@@ -1,4 +1,4 @@
-const Card = (props) => { 
+const Card = ({ title, description }) => { 
   return (
     <div className="card">
       <h2>{props.title}</h2>
