@@ -24,8 +24,10 @@ function App() {
       <button className="get-started">Get Started</button>
 
       <button onClick={handleLike} className="like-btn">
-        {hasLiked ? "❤️" : "🤍"} {count}
+        {hasLiked ? "❤️" : "🤍"}
       </button>
+
+      <p>Likes: {count}</p>
     </div>
   );
 }
