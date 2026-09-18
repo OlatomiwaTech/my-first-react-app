@@ -3,7 +3,7 @@ import './App.css'
 
 
 function App() {
-  const [hasLiked, sethasLiked] = useState();
+  const [hasLiked, sethasLiked] = useState(false);
 return (
  <div class='card'>
   <h2>Premium Workspace</h2>
