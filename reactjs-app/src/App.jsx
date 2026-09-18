@@ -11,7 +11,7 @@ function App() {
 
       <button className="get-started">Get Started</button>
 
-      <button onClick={() => setHasLiked(!hasLiked)}>
+      <button onClick={() => setHasLiked(!hasLiked)} className="like-btn">
         {hasLiked ? "Liked" : "Like"}
       </button>
     </div>
